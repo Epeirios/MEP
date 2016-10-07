@@ -43,10 +43,10 @@
     <Compile Include="Interfaces\IBaseInterface.cs" />
     <Compile Include="Interfaces\IMainView.cs" />
     <Compile Include="Interfaces\IModel.cs" />
+    <Compile Include="Models\Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Presenters\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
