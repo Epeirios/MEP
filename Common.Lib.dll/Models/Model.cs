@@ -6,16 +6,22 @@ using System.Text;
 using System.Threading.Tasks;
 using Common.Lib.Interfaces;
 using System.Data.OleDb;
+using System.IO;
 
 namespace Common.Lib.Models
 {
-    class Model : IModel
+    public class Model : IModel
     {
-        public DataSet GetJobData(string filename)
+        public DataSet GetData(string filename)
         {
-            string connectionString =”Provider = Microsoft.Jet.OLEDB.4.0; Data Source = c:\csvfiles\; Extended Properties =’text; HDR = Yes'”;
 
-            string commandText = string.Format(“Select * from { 0}”, filename);
+
+
+            string pathOnly = Path.GetDirectoryName(@"C:\bla\");
+
+            string connectionString = string.Format("Provider = Microsoft.Jet.OLEDB.4.0; Data Source = {0}; Extended Properties =\"Text; HDR = Yes\"", pathOnly);
+
+            string commandText = string.Format("SELECT * FROM [{0}]", filename);
 
             OleDbConnection conn = new OleDbConnection(connectionString);
 

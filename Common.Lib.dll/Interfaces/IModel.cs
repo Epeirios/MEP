@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Common.Lib.Interfaces
 {
-    interface IModel : IBaseInterface
+    public interface IModel : IBaseInterface
     {
-        DataSet GetJobData (string filename);
+        DataSet GetData (string filename);
     }
 }
