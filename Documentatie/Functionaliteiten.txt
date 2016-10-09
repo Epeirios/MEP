@@ -1,0 +1,6 @@
+Het doel is het maken van een todo list
+
+- database
+- todo item toevoegen
+- format todo item (naam, gedaan ja/nee, index)
+- presenteren lijst met todo items
