@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<weapons>
+  <weapon>
+    <name>AK47</name>
+    <maxAmmo>30</maxAmmo>
+    <parts>
+      <part>
+        <parttype>scope</parttype>
+        <partname>ACOG</partname>
+      </part>
+    </parts>
+  </weapon>
+</weapons>
