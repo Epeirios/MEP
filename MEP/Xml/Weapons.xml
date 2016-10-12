@@ -2,12 +2,10 @@
 <weapons>
   <weapon>
     <name>AK47</name>
-    <maxAmmo>30</maxAmmo>
     <parts>
-      <part>
-        <parttype>scope</parttype>
-        <partname>ACOG</partname>
-      </part>
+      <magazine>default</magazine>
+      <scope>default</scope>
+      <trigger>default</trigger>
     </parts>
   </weapon>
 </weapons>
