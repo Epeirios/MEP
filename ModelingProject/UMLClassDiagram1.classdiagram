@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="342ae3a6-fbd8-4b4f-a649-19564ec5d107" name="UMLClassDiagram1" linkedPackageId="299da4ae-e08e-4261-ab45-b0391294fbf0" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="be8fb731-f8a0-458d-9ffb-d1e36d5ed608">
+      <profileInstance Id="df05f7bf-c539-44ea-8cf5-6a79a89f352b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="deb447ec-b0cd-44cd-b171-5087335a221b">
+      <profileInstance Id="dc80832b-2243-4c5a-9695-18dea3bb1ed4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b1564e56-ce84-4c7a-9e5d-1f637e6c42fc" name="Model" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2238bfca-a842-4343-96e3-983717fcf96b" />
+        <suppliersInternal>
+          <dependency Id="7eb92053-95ce-42e7-b2eb-a8bb7ccb3e75">
+            <classMoniker Id="0c929f49-7c93-4da5-b7e4-979e2f82d367" LastKnownName="Presenter" />
+            <elementDefinition Id="279d6003-0d48-4030-9366-d2d7f31f26bb" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0c929f49-7c93-4da5-b7e4-979e2f82d367" name="Presenter" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="503aa436-1955-41bd-9e88-4189f5d60f8e" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1335a793-1de3-4f39-8f22-a49bde8ad620" name="View" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bc81c7d1-78c9-4db8-9f17-092f2e9b13d4" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="299da4ae-e08e-4261-ab45-b0391294fbf0" name="ModelingProject">
+    <elementDefinition Id="46f85a40-34bc-4015-a487-46ed4f01f392" />
+  </package>
+</logicalClassDesignerModel>
